@@ -1,0 +1,8 @@
+activity A
+bind A: grade, name
+activity B
+bind B: grade
+name: A, B, C
+grade: integer between 1 and 6
+Existence[A] |A.grade > 2 |
+Response[A, B] |A.grade > 2 |T.grade > 5 |1,5,s
