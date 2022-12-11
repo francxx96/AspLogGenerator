@@ -1,3 +1,7 @@
+# Output local folders
+/bin/
+/target/
+
 # Compiled class file
 *.class
 
